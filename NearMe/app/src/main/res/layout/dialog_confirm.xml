@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/red">
+
+        <TextView
+            android:id="@+id/textViewAlertHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:padding="12dp"
+            android:maxLines="1"
+            android:text="Alert Notification"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textViewTextSizeLarge" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutScView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/layoutHeader"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:scrollbars="none">
+
+            <TextView
+                android:id="@+id/textViewMessage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textViewTextSizeNormal" />
+        </ScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutBtns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="110dp"
+            android:layout_height="@dimen/buttonHeightNormal"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_red"
+            android:text="YES"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/buttonTextSizeNormal" />
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="110dp"
+            android:layout_height="@dimen/buttonHeightNormal"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/btnYes"
+            android:background="@drawable/button_black"
+            android:text="NO"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/buttonTextSizeNormal" />
+    </RelativeLayout>
+
+</RelativeLayout>

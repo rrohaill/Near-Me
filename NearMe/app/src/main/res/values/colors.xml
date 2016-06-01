@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Material Theme Colors-->
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryDark">#921616</color>
+    <color name="colorAccent">#D32F2F</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#727272</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <!--Material Theme Colors-->
+
+    <color name="transparent_black">#55000000</color>
+    <color name="white">#ffffff</color>
+    <color name="line_light_grey">#c1c1c1</color>
+    <color name="lightest_grey_bg">#f3f3f3</color>
+    <color name="grey_lightest">#FAFAFA</color>
+    <color name="dark_gray">#373737</color>
+    <color name="dark_grey_color">#393a3b</color>
+    <color name="text_grey">#424242</color>
+    <color name="disabled">#c6c6c6</color>
+    <color name="disabled_dark_gray">#a7a5a5</color>
+    <color name="shadow_gray">#40000000</color>
+    <color name="shadow_dark_gray">#8e000000</color>
+    <color name="light_gray">#e5e5e5</color>
+    <color name="text_grey_heading">#697082</color>
+    <color name="text_grey_light">#6a707e</color>
+    <color name="bg_table_row_color1">#d2d2d2</color>
+    <color name="bg_table_row_color2">#bfbfbf</color>
+    <color name="tile_recent_light_grey">#8f8f8f</color>
+    <color name="dialog_background">#B5B5B5</color>
+    <color name="light_grey_text">#7c7c7c</color>
+    <color name="grey_delink">#C9C9C9</color>
+    <color name="btn_disable">#c2c2c2</color>
+
+    <color name="label_color">#e1eaf1</color>
+    <color name="label_dark_color">#21384a</color>
+
+    <color name="header">#9F1A07</color>
+    <color name="red">#b71b1c</color>
+    <color name="deep_red">#950100</color>
+    <color name="btn_red">#972818</color>
+    <color name="btn_red_hover">#d03a24</color>
+    <color name="header_error_red">#c14545</color>
+
+    <color name="green_dark">#0B3B0B</color>
+    <color name="green">#22c064</color>
+    <color name="green_button">#09A55E</color>
+    <color name="text_green">#567c02</color>
+    <color name="header_success_green">#6ec145</color>
+
+    <color name="blue_dark">#0B0B61</color>
+    <color name="blue_button">#294CA0</color>
+    <color name="blue">#0000ff</color>
+    <color name="blue_bg">#2ea3db</color>
+    <color name="text_blue">#6086E0</color>
+    <color name="text_blue_dark">#00608a</color>
+    <color name="bg_table_row_color3">#2ea3db</color>
+    <color name="btn_blue">#2e87cc</color>
+    <color name="btn_blue_hover">#1e6dab</color>
+    <color name="header_info_blue">#4597c1</color>
+
+    <color name="deep_orange">#E77320</color>
+    <color name="light_orange">#ED9D00</color>
+
+    <!--
+  Use android transparent to avoid a bug where b
+  ackground set to transparent shows an image instead:
+  Stack overflow here:http://stackoverflow.com/questions/3822123/weird-layout-problem-please-see-the-attached-image
+
+
+
+
+
+
+    -->
+    <color name="transparent">@android:color/transparent</color>
+    <color name="yellow_bg">#F29B16</color>
+    <color name="grey_bg">#E4E4E4</color>
+    <color name="green_bg">#74981A</color>
+
+    <!-- drawer layout -->
+
+    <color name="list_item_title">#1D1D1D</color>
+    <color name="list_background">#FFFFFF</color>
+    <color name="list_background_pressed">#E4E4E4</color>
+    <color name="list_divider_gray">#F3F3F3</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#1D1D1D</color>
+    <color name="holo_blue">#33b5e5</color>
+    <color name="holo_purple">#aa66cc</color>
+    <color name="holo_green">#99cc00</color>
+    <color name="holo_orange">#ffbb33</color>
+    <color name="holo_red">#ff4444</color>
+
+
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "207620864996",
+    "firebase_url": "https://api-project-207620864996.firebaseio.com",
+    "project_id": "api-project-207620864996",
+    "storage_bucket": "api-project-207620864996.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207620864996:android:338ac1be6d4164bc",
+        "android_client_info": {
+          "package_name": "com.rohail.apps.nearme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207620864996-c5mfrhm328vlc55mn0k34u794arhv10o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv1LE9WN-LafnVtQuEx9rPBrcu40w4XfY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

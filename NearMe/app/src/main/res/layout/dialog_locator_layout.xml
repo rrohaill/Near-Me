@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress ALL -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dialogLocatorHeight"
+    android:layout_gravity="center"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/red"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/textViewAlertHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="Alert Notification"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textViewTextSizeXLarge" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_view_distance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutHeader"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scrollbars="none">
+
+        <RadioGroup
+            android:id="@+id/rgDistanceOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/radio_5km"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:drawableLeft="@drawable/btn_radio"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:text="5 KM"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textViewTextSizeXLarge" />
+
+            <View
+                android:id="@+id/middleBar1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dark_gray" />
+
+            <RadioButton
+                android:id="@+id/radio_10km"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/btn_radio"
+                android:button="@null"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:text="10 KM"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textViewTextSizeXLarge" />
+
+            <View
+                android:id="@+id/middleBar2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dark_gray" />
+
+            <RadioButton
+                android:id="@+id/radio_15km"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/btn_radio"
+                android:button="@null"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:text="15 KM"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textViewTextSizeXLarge" />
+
+            <View
+                android:id="@+id/middleBar3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dark_gray" />
+
+            <RadioButton
+                android:id="@+id/radio_20km"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/btn_radio"
+                android:button="@null"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:text="20 KM"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textViewTextSizeXLarge" />
+        </RadioGroup>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scroll_view_locator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutHeader"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scrollbars="none">
+
+        <RadioGroup
+            android:id="@+id/rgPlaceOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/radio_airport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/btn_radio"
+                android:button="@null"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:text="Airport"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textViewTextSizeXLarge" />
+
+            <View
+                android:id="@+id/middleBar4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dark_gray" />
+
+            <RadioButton
+                android:id="@+id/radio_atm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/btn_radio"
+                android:button="@null"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:text="ATM"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textViewTextSizeXLarge" />
+
+            <View
+                android:id="@+id/middleBar5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dark_gray" />
+
+            <RadioButton
+                android:id="@+id/radio_bakery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/btn_radio"
+                android:button="@null"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:text="Bakery"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textViewTextSizeXLarge" />
+
+            <View
+                android:id="@+id/middleBar6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dark_gray" />
+
+            <RadioButton
+                android:id="@+id/radio_bank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/btn_radio"
+                android:button="@null"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:text="Bank"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textViewTextSizeXLarge" />
+        </RadioGroup>
+    </ScrollView>
+
+</RelativeLayout>

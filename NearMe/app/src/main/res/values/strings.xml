@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NearMe</string>
+    <string name="title_activity_map">NearMe</string>
+    <string name="google_maps_key">AIzaSyAqmUmYT1uw61pTVZ7vK0YV-PvaiZMvxYo</string>
+    <string name="ad_id">ca-app-pub-8825972559142375/2729246848</string>
+    <string name="interstitial_ad_id">ca-app-pub-8825972559142375/5066617643</string>
+</resources>

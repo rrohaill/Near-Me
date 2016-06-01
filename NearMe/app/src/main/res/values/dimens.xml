@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textViewTextSizeXSmall">12dp</dimen>
+    <dimen name="textViewTextSizeSmall">14dp</dimen>
+    <dimen name="textViewTextSizeNormal">16dp</dimen>
+    <dimen name="textViewTextSizeLarge">20dp</dimen>
+    <dimen name="textViewTextSizeXLarge">25dp</dimen>
+    <dimen name="textViewTextSizeXXLarge">32dp</dimen>
+    <dimen name="textViewTextSizeXXXLarge">40dp</dimen>
+
+    <dimen name="textViewFieldMargin">4dp</dimen>
+
+    <dimen name="radiusNormal">5dip</dimen>
+    <dimen name="rounded_bg_card">20dip</dimen>
+
+    <dimen name="editTextFieldTopMargin">10dp</dimen>
+    <dimen name="editTextFieldPadding">10dp</dimen>
+    <dimen name="editTextFieldVerticalStart">23dp</dimen>
+
+    <dimen name="buttonTextSizeNormal">22dp</dimen>
+    <dimen name="buttonTopMargin">5dp</dimen>
+    <dimen name="buttonHeightNormal">50dp</dimen>
+    <dimen name="buttonHeightSmall">40dp</dimen>
+    <dimen name="buttonWidthNormal">130dp</dimen>
+    <dimen name="buttonSideMargin">15dp</dimen>
+
+    <dimen name="loginHeaderTopPadding">10dp</dimen>
+    <dimen name="loginEditTextFieldSidePadding">10dp</dimen>
+
+    <dimen name="dialogBranchLocatorHeight">300px</dimen>
+    <dimen name="dialogLocatorHeight">290dp</dimen>
+
+    <dimen name="barPadding">4dp</dimen>
+
+    <dimen name="screenBottomMargin">30dp</dimen>
+
+    <dimen name="scrollViewMarginLeftRight">18dp</dimen>
+
+    <dimen name="subheader_height">60dp</dimen>
+
+    <dimen name="header_size">150dp</dimen>
+
+    <dimen name="flexible_space_image_height">200dp</dimen>
+    <dimen name="flexible_space_show_fab_offset">150dp</dimen>
+
+    <dimen name="margin_standard">16dp</dimen>
+    <dimen name="margin_short">8dp</dimen>
+    <dimen name="margin_extra_short">4dp</dimen>
+
+    <dimen name="adHeigght">197dp</dimen>
+    <dimen name="bankCardHeigght">200dp</dimen>
+
+</resources>
