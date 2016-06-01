@@ -5,3 +5,5 @@ NearMe application displays nearby locations in 5 to 20 KM radius of user's curr
 3.User can find details about any place either by looking in the list shown below the map or by tapping any desired marker displayed on the map. After tapping on the marker a popup will be displayed showing the name, distance , address of the place and two buttons i.e 'CANCEL', 'PATH'.
 
 4. User can find the path from his current location to the desired place either by tapping on 'PATH' button displayed in the popup against marker or by tapping on any list item shown below the map.
+5. FCM - Firebase Cloud Messaging
+        Push notifications
