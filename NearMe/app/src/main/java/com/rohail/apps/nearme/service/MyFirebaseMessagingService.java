@@ -252,7 +252,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         Intent intent = null;
 
         intent = new Intent(this, MapActivity.class);
-        intent.addFlags(Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         intent.putExtra(Constants.IntentKeys.KEY_NOTIFICATION_MSG, message);
 
         if (remoteMessage.getData() != null && remoteMessage.getData().get("update") != null &&

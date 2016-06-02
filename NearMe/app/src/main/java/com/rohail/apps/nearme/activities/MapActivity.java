@@ -244,7 +244,7 @@ public class MapActivity extends BaseMapActivity implements LocationListener,
     }
 
     private void generateNotificationId() {
-        if (notificatioId!=null) {
+        if (notificatioId != null && !notificatioId.equals("")) {
             PopupDialogs.createConfirmationDialog(notificatioMsg, "Notification", this, new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -263,7 +263,11 @@ public class MapActivity extends BaseMapActivity implements LocationListener,
     }
 
     private void getFCMToken() {
-        Logger.i(FirebaseInstanceId.getInstance().getToken());
+        try {
+            Logger.i(FirebaseInstanceId.getInstance().getToken());
+        } catch (Exception e) {
+            Logger.e(e);
+        }
     }
 
     private void loadInterstitialAds() {
